@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: block;
+    height: 100px;
+    background-color: red;
+}
+footer{
+    display: block;
+    height: 200px;
+    background-color: darkgrey;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.content{
+    height: 100%;
