@@ -34,10 +34,13 @@
     justify-content: flex-end;
 }
 .end{
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 .start{
     align-items: flex-start;
+}
+.margin-left{
+    margin-left: auto;
 }
 .bigger-2x{
     flex-grow: 2;
@@ -73,5 +76,5 @@
 }
 .yellow{
     background-color: bisque;
-    flex: 0.16667;
+    flex-grow: 0.25;
 }
