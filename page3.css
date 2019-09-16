@@ -1,1 +1,27 @@
-body {font:18px/1.25 'Arial', sans-serif; }
+body {font:18px/1.25 'Arial', sans-serif;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+}
+img{
+    margin: 0px 10px 10px 20px;
+}
+.tweet-list{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tweet-item{
+    width: 330px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid lightgray;
+}
+.tweet-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
