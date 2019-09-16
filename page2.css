@@ -1,12 +1,35 @@
-body{
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    align-items: stretch;
-    align-content: stretch;
     flex: 1;
 }
-header{
+
+header {
+    display: block;
+    height: 100px;
+    background: red;
+}
+
+footer {
+    display: block;
+    height: 200px;
+    background-color: darkgrey;
+}
+
+.content-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+/*header{
     display: block;
     height: 100px;
     background-color: lightsalmon;
@@ -16,16 +39,22 @@ footer{
     height: 200px;
     background-color: darkgrey;
 }
-.content-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    align-content: stretch;
-    height: 100%;
+html{
     margin: 0px;
 }
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    height: 100px;
 
-.content{
-    height: auto;
 }
+.content-wrapper {
+    flex:1;
+    background-color: lightgray;
+    display: block;
+    height: 100%;
+    align-items: stretch;
+}
+*/
