@@ -33,10 +33,13 @@ a:link {
     border-bottom: 1px solid lightgray;
 }
 .tweet-body{
+    display: flex;
+    flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
-    align-items: stretch;
-
+}
+.tweet-body p{
+    flex: 1 0 auto;
 }
 .tweet-footer{
     display: flex;
